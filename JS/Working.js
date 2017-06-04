@@ -99,8 +99,15 @@ var ViewModel = function() {
 		placeMark.setVisible(true);
 		if (placeMark.getAnimation() != null) {		
 			placeMark.setAnimation(null);		
-		}else{
+		}
+		else
+		{
 			placeMark.setAnimation(google.maps.Animation.BOUNCE);
+			setTimeout(function()
+			{
+				placeMark.setAnimation(null);
+
+			}, 1000)
 			}
 		openMarkerInfo(placeMark, markerinfo);	
 	}
