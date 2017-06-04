@@ -6,7 +6,7 @@ About the Project:
 
 2. Google Maps API is used to display the map and mark the places on it.
 
-3. When you click on any location the information related to it pops up, this information fetched using Wikipedia API.
+3. When you click on any location the information related to it pops up, this information is fetched using Wikipedia API.
 
 4. The locations are depicted by red markers and these markers bounce when you click on them.
 
@@ -34,7 +34,7 @@ Framework Used:
 
 How to Search Places:
 
-1. To search the tourist places in Himachal Pradesh, open Start.html and see all the places.
+1. To initiate the project, open Start.html and see all the places.
 
 2. In case you want to filter the list, type the place name in the search box.
 
