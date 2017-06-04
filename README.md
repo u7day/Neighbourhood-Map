@@ -32,4 +32,11 @@ Framework Used:
 1. knockoutJS
 
 
+How to Search Places:
+
+1. To search the tourist places in Himachal Pradesh, open Start.html and see all the places.
+
+2. In case you want to filter the list, type the place name in the search box.
+
+
 Don't forget to check this Map before Planning for your next Trip to Mountains!!!
