@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>UNFORGETTABLE HIMACHAL</title>
+	<link href="bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="CSS/Styling.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-12 title">
+			<h1>Unforgettable Himachal</h1>
+			<hr class="hr">
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 inp">
+				<input class="form-control" data-bind="value:searchRes,valueUpdate:'afterkeydown', event: {keyup: findPlace}" placeholder="Search" type="text">
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		<div class="row" id="map"></div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<ul class="nav navbar-nav" data-bind="foreach:placeList">
+					<li class="list" data-bind="visible:displayed, event:{click:$parent.displayMarker},text:loc"></li>
+				</ul>
+				<div class="col-md-1"></div>
+			</div>
+	</div>
+	<script src="JS/Jquery.min.js">
+	</script>
+	<script src="JS/Knockout.js">
+	</script>
+	<script src="bootstrap/bootstrap.js">
+	</script>
+	<script src="JS/Working.js">
+	</script>
+	<script async defer onerror="naksha()" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyCJ_sD4PNmssh0TgJCRv5Xb45e7r1poSBU&v=3&callback=Begin">
+	</script>
+</body>
+</html>

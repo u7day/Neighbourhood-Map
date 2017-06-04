@@ -1,0 +1,44 @@
+body{
+	background-image:url("sub-buzz-30615-1489668720-5.png");
+	
+}	
+.title {
+	font-family: 'Cormorant SC', serif;
+	font-weight:bold;
+	text-align: center;
+	color:white;
+}
+
+#map {
+	height: 410px;
+	margin-top: 15px;
+	border-radius: 12px;
+	border: 2px solid black;
+}
+.list {
+	font-weight:bold;
+	font-family: 'Cormorant SC', serif;
+	margin-top:10px;
+	font-size: 27px;
+	padding: 12px;
+	cursor: pointer;
+	text-align:center;
+	border-style: solid;
+	border-color:transparent;
+    border-left-color: #423196;
+	color:white;
+}
+.hr {
+	border: 1px solid white;
+}
+.inp{
+	border-radius: 12px;
+	margin:1px;
+}
+h1{
+	/*font-family: 'Italianno', cursive*/
+	font-family: 'Allura', cursive ;
+	font-size: 54px;
+	
+}
+
